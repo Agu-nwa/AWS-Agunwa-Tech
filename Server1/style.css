@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 12px;
+    width: 60%;
+}
+
+.server1 {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+}
