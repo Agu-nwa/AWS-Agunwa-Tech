@@ -292,3 +292,25 @@ sudo systemctl enable nginx
 
 Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
 Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
+
+## ⚙️ 1. Verify Ubuntu is running
+
+### Command
+```bash
+sudo systemctl status nginx
+● nginx.service - A high performance web server and a reverse proxy server
+     Loaded: loaded (/usr/lib/systemd/system/nginx.service; enabled; preset: enabled)
+     Active: active (running) since Sat 2026-06-20 17:47:36 UTC; 2h 25min ago
+ Invocation: 2ce7da06783d47a4af044c4f01915c85
+       Docs: man:nginx(8)
+   Main PID: 7786 (nginx)
+      Tasks: 3 (limit: 627)
+     Memory: 3.2M (peak: 7M)
+        CPU: 55ms
+     CGroup: /system.slice/nginx.service
+             ├─7786 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"
+             ├─7789 "nginx: worker process"
+             └─7790 "nginx: worker process"
+
+Jun 20 17:47:36 ip-172-31-29-182 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
+Jun 20 17:47:36 ip-172-31-29-182 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
