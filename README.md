@@ -91,4 +91,26 @@ origin	https://github.com/Agu-nwa/AWS-Agunwa-Tech.git (fetch)
 origin	https://github.com/Agu-nwa/AWS-Agunwa-Tech.git (push)
 
 
+# 🖥️ EC2 Instance Deployment
+
+## 🚀 1. Launch EC2 Instance
+
+### Configuration
+- Instance Names: Server1 Server2 Server3
+- OS: Ubuntu Linux
+- Instance Type: t2.micro
+- Security Group Rules:
+  - SSH (22)
+  - HTTP (80)
+
+---
+
+### Result
+EC2 instance successfully launched and running in AWS cloud environment.
+
+### Verification
+- Instance state: Running
+- Public IP: Assigned
+- SSH access: Enabled
+
 
