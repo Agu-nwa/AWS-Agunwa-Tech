@@ -320,4 +320,13 @@ Jun 20 17:47:36 ip-172-31-29-182 systemd[1]: Started nginx.service - A high perf
 ### Command
 ```bash
 cd /var/www/html
+ubuntu@ip-172-31-29-182:/var/www/html$
+
+## ⚙️ 1. Create Website File
+
+### Command
+```bash
+ubuntu@ip-172-31-29-182:/var/www/html$ sudo nano /var/www/html/index.html
+Paste File in Nano Text Editor
 ubuntu@ip-172-31-29-182:/var/www/html$ 
+
