@@ -81,5 +81,14 @@ Remote repository successfully linked to local project.
 
 This allows synchronization between local development environment and GitHub remote repository.
 
+## 📂 1.3: Verify Remote Connection
+
+### Command
+```bash
+git remote -v
+
+origin	https://github.com/Agu-nwa/AWS-Agunwa-Tech.git (fetch)
+origin	https://github.com/Agu-nwa/AWS-Agunwa-Tech.git (push)
+
 
 
