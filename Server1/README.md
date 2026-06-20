@@ -314,3 +314,10 @@ sudo systemctl status nginx
 
 Jun 20 17:47:36 ip-172-31-29-182 systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...
 Jun 20 17:47:36 ip-172-31-29-182 systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.
+
+## ⚙️ 1. Navigate to Web Root Directory
+
+### Command
+```bash
+cd /var/www/html
+ubuntu@ip-172-31-29-182:/var/www/html$ 
