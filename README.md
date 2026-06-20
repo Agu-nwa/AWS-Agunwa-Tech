@@ -66,10 +66,20 @@ This section documents the initial setup of the Agunwa Tech DevOps project, incl
 cd ~/Agunwa-tech
 Successfully moved into the project workspace directory:
 
-## 📁 1. Git initialization
+## 📁 1.1: Git initialization
 
 ### Command
 ```bash
 git init
 Initialized empty Git repository in /Users/gillisokolov/.git/
+
+## 📂 1.2: Add Remote GitHub Repository
+```bash
+git remote add origin https://github.com/Agu-nwa/AWS-Agunwa-Tech.git
+
+Remote repository successfully linked to local project.
+
+This allows synchronization between local development environment and GitHub remote repository.
+
+
 
