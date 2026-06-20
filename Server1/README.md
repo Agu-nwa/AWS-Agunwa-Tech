@@ -217,3 +217,62 @@ User sessions running outdated binaries:
  ubuntu @ user manager: (sd-pam)[1173]
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
+## ⚙️ 1. Install Nginx
+
+### Command
+```bash
+sudo apt install nginx -y
+
+Installing:                     
+  nginx
+
+Installing dependencies:
+  nginx-common
+
+Suggested packages:
+  fcgiwrap  nginx-doc  ssl-cert
+
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 0
+  Download size: 664 kB
+  Space needed: 1874 kB / 4676 MB available
+
+Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 nginx-common all 1.28.3-2ubuntu1.5 [37.2 kB]
+Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu resolute-updates/main amd64v3 nginx amd64 1.28.3-2ubuntu1.5 [627 kB]
+Fetched 664 kB in 0s (15.4 MB/s)
+Preconfiguring packages ...
+Selecting previously unselected package nginx-common.
+(Reading database ... 85280 files and directories currently installed.)
+Preparing to unpack .../nginx-common_1.28.3-2ubuntu1.5_all.deb ...
+Unpacking nginx-common (1.28.3-2ubuntu1.5) ...
+Selecting previously unselected package nginx.
+Preparing to unpack .../nginx_1.28.3-2ubuntu1.5_amd64v3.deb ...
+Unpacking nginx (1.28.3-2ubuntu1.5) ...
+Setting up nginx-common (1.28.3-2ubuntu1.5) ...
+Created symlink '/etc/systemd/system/multi-user.target.wants/nginx.service' → '/usr/lib/systemd/system/nginx.service'.
+Setting up nginx (1.28.3-2ubuntu1.5) ...
+ * Upgrading binary nginx                                                                                                                                                                            [ OK ] 
+Processing triggers for man-db (2.13.1-1build1) ...
+Processing triggers for ufw (0.36.2-9build1) ...
+Scanning processes...                                                                                                                                                                                       
+Scanning candidates...                                                                                                                                                                                      
+Scanning linux images...                                                                                                                                                                                    
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ ubuntu @ session #1: sshd-session[1165]
+ ubuntu @ user manager: (sd-pam)[1173]
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+
