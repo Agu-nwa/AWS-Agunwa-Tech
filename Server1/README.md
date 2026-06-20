@@ -276,3 +276,19 @@ User sessions running outdated binaries:
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 
+## ⚙️ 1. Start Nginx
+
+### Command
+```bash
+sudo systemctl start nginx
+
+Successfully started nginx
+
+## ⚙️ 1. Enable Auto Restart Nginx 
+
+### Command
+```bash
+sudo systemctl enable nginx
+
+Synchronizing state of nginx.service with SysV service script with /usr/lib/systemd/systemd-sysv-install.
+Executing: /usr/lib/systemd/systemd-sysv-install enable nginx
