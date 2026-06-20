@@ -330,3 +330,11 @@ ubuntu@ip-172-31-29-182:/var/www/html$ sudo nano /var/www/html/index.html
 Paste File in Nano Text Editor
 ubuntu@ip-172-31-29-182:/var/www/html$ 
 
+## ⚙️ 1. Restart Nginx
+
+### Command
+```bash
+ubuntu@ip-172-31-29-182:~$ sudo systemctl restart nginx
+ubuntu@ip-172-31-29-182:~$ 
+
+
