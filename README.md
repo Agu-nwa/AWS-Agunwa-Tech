@@ -37,3 +37,18 @@ Example:
 - Format using **ext4 filesystem**
 - Mount to a directory:
 
+- # 🚀 Agunwa Tech - AWS DevOps Setup
+
+## 🧭 Project Initialization (Git Setup)
+
+This section documents the initial setup of the project repository and Git remote configuration.
+
+---
+
+## 📁 1. Create Project Directory
+
+### Command
+```bash
+mkdir Agunwa-tech
+
+A new project folder named Agunwa-tech was created in the home directory
