@@ -338,3 +338,6 @@ ubuntu@ip-172-31-29-182:~$ sudo systemctl restart nginx
 ubuntu@ip-172-31-29-182:~$ 
 
 
+## ⚙️ 1. Access Website
+http://100.27.2xx.xxx
+
