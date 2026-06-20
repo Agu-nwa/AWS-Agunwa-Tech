@@ -52,3 +52,19 @@ This section documents the initial setup of the project repository and Git remot
 mkdir Agunwa-tech
 
 A new project folder named Agunwa-tech was created in the home directory
+
+# 📂 Project Setup Steps (Git Initialization Phase)
+
+This section documents the initial setup of the Agunwa Tech DevOps project, including navigation into the project directory, Git initialization, and remote repository configuration.
+
+---
+
+## 📁 1. Navigate into Project Directory
+
+### 🧾 Command
+```bash
+cd ~/Agunwa-tech
+Successfully moved into the project workspace directory:
+
+/Users/username/Agunwa-tech
+
