@@ -113,4 +113,10 @@ EC2 instance successfully launched and running in AWS cloud environment.
 - Public IP: Assigned
 - SSH access: Enabled
 
+## ⚙️ 1.1. Create Folders On Mac
 
+### Command
+```bash
+mkdir Server1 Server2 Server3
+
+Three Folders Created Successfully
