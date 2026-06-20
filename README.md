@@ -66,5 +66,3 @@ This section documents the initial setup of the Agunwa Tech DevOps project, incl
 cd ~/Agunwa-tech
 Successfully moved into the project workspace directory:
 
-/Users/username/Agunwa-tech
-
