@@ -470,5 +470,14 @@ ubuntu@ip-172-31-29-182:~$
 ## Command
 ```bash
 ubuntu@ip-172-31-29-182:~$ sudo nano /etc/fstab
-[Replace the last line with: UUID=a3a2523d-be73-41ea-b518-c1bce9eb24d3 /Agu-tech ext4 defaults,nofail 0 2]
-ubuntu@ip-172-31-29-182:~$ 
+[Replace the last line in nano editor with: UUID=a3a2523d-be73-41ea-b518-c1bce9eb24d3 /Agu-tech ext4 defaults,nofail 0 2]
+ubuntu@ip-172-31-29-182:~$
+
+## ⚙️ Test
+
+## Command
+```bash
+sudo mount -a
+ubuntu@ip-172-31-29-182:~$
+
+[Nothing returned, Good]
