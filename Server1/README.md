@@ -438,6 +438,7 @@ ubuntu@ip-172-31-29-182:~$
 
 
 ## ⚙️ Configure fstba
+
 ## Command
 ```bash
 ubuntu@ip-172-31-29-182:~$ sudo nano /etc/fstab
@@ -445,8 +446,29 @@ ubuntu@ip-172-31-29-182:~$ sudo nano /etc/fstab
 ubuntu@ip-172-31-29-182:~$
 
 ## ⚙️ Validate Configuration
+
 ## Command
 ```bash
 ubuntu@ip-172-31-29-182:~$ sudo mount -a
 mount: /etc/fstab: parse error at line 6 -- ignored
 
+## ⚙️ View Error File
+
+## Command
+```bash
+sudo cat /etc/fstab
+LABEL=cloudimg-rootfs	/	 ext4	discard,commit=30,errors=remount-ro	0 1
+LABEL=BOOT	/boot	ext4	defaults	0 2
+LABEL=UEFI	/boot/efi	vfat	umask=0077	0 1
+
+
+/dev/nvme1n1: UUID=a3a2523d-be73-41ea-b518-c1bce9eb24d3 /Agu-tech ext4 defaults,nofail 0 2
+ubuntu@ip-172-31-29-182:~$ 
+
+## ⚙️ Fix Error
+
+## Command
+```bash
+ubuntu@ip-172-31-29-182:~$ sudo nano /etc/fstab
+[Replace the last line with: UUID=a3a2523d-be73-41ea-b518-c1bce9eb24d3 /Agu-tech ext4 defaults,nofail 0 2]
+ubuntu@ip-172-31-29-182:~$ 
