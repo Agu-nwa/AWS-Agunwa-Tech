@@ -418,4 +418,3 @@ none             1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
 none             1.0M     0  1.0M   0% /run/credentials/systemd-networkd.service
 tmpfs             91M  8.0K   91M   1% /run/user/1000
 /dev/nvme1n1     5.9G  1.6M  5.6G   1% /Agu-tech
-ubuntu@ip-172-31-29-182:~$
