@@ -485,7 +485,7 @@ ubuntu@ip-172-31-29-182:~$
 ## 📂 Allocate an Elastic IP Address
 
 ## Command
-```bash
+
 From the AWS Management Console:
 
 Navigate to EC2 Dashboard.
@@ -500,12 +500,28 @@ Result:
 Elastic IP allocated to Server 1 successfully.
 
 
-## ⚙️ Verify Connectivity
+## 📂 Verify Connectivity
 
 ## Command
-```bash
+
 http://<Elastic-IP>
 
 Result:
 
 Welcome to Agunwa Technologies - Server 1
+
+## 📂 Create Target Group
+
+## Command
+Navigate to EC2 Dashboard.
+Select Target Groups.
+Click Create Target Group.
+Configure:
+Target Type; Instances
+Protocol; HTTP
+Port; 80
+Create target group.
+
+Result:
+
+Target Group created successfully.
