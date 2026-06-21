@@ -493,7 +493,8 @@ Select Elastic IPs.
 Click Allocate Elastic IP Address.
 Accept default settings.
 Click Allocate.
-
+Associate Elastic Ip
+Choose Instance
 Result:
 
 Elastic IP allocated to Server 1 successfully.
