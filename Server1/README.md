@@ -543,4 +543,15 @@ Result:
 
 Application Load Balancer created successfully.
 
+## 🎮 Verify
 
+## Command
+http://<DNS-NAME>
+
+Refreshed multiple times.
+
+Responses:
+
+Welcome to Agunwa Technologies - Server 1
+Welcome to Agunwa Technologies - Server 2
+Welcome to Agunwa Technologies - Server 3
