@@ -435,3 +435,11 @@ ubuntu@ip-172-31-29-182:~$
 ubuntu@ip-172-31-29-182:~$ sudo blkid /dev/nvme1n1
 /dev/nvme1n1: UUID="a3a2523d-be73-41ea-b518-c1bce9eb24d3" BLOCK_SIZE="4096" TYPE="ext4"
 ubuntu@ip-172-31-29-182:~$
+
+
+## ⚙️ Configure fstba
+## Command
+```bash
+ubuntu@ip-172-31-29-182:~$ sudo nano /etc/fstab
+[paste UUID config in nano editor, save and exit]
+ubuntu@ip-172-31-29-182:~$ 
