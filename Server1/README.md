@@ -426,4 +426,12 @@ tmpfs             91M  8.0K   91M   1% /run/user/1000
 ```bash
 ubuntu@ip-172-31-29-182:~$ echo "Agunwa Technologies Storage Layer" | sudo tee /Agu-tech/company.txt
 Agunwa Technologies Storage Layer
-ubuntu@ip-172-31-29-182:~$ 
+ubuntu@ip-172-31-29-182:~$
+
+## ⚙️ Get Disk UUID for Persistant Mount Configuration
+
+## Command
+```bash
+ubuntu@ip-172-31-29-182:~$ sudo blkid /dev/nvme1n1
+/dev/nvme1n1: UUID="a3a2523d-be73-41ea-b518-c1bce9eb24d3" BLOCK_SIZE="4096" TYPE="ext4"
+ubuntu@ip-172-31-29-182:~$
