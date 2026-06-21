@@ -498,3 +498,14 @@ Choose Instance
 Result:
 
 Elastic IP allocated to Server 1 successfully.
+
+
+## ⚙️ Verify Connectivity
+
+## Command
+```bash
+http://<Elastic-IP>
+
+Result:
+
+Welcome to Agunwa Technologies - Server 1
