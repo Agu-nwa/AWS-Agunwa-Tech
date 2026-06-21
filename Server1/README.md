@@ -383,3 +383,12 @@ Allocating group tables: done
 Writing inode tables: done                            
 Creating journal (16384 blocks): done
 Writing superblocks and filesystem accounting information: done
+
+## 📂 Create Mount Directory
+
+## Command
+```bash
+ubuntu@ip-172-31-29-182:~$ sudo mkdir /Agu-tech
+ubuntu@ip-172-31-29-182:~$
+
+
