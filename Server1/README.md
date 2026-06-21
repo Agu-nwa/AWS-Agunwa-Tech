@@ -341,3 +341,14 @@ ubuntu@ip-172-31-29-182:~$
 ## ⚙️ 1. Access Website
 http://100.27.2xx.xxx
 
+
+## 📂 2.1 Attach EBS Volume
+
+Created 6 GB Amazon EBS volume and attached to the EC2 instance (Server 1) through the AWS Management Console.
+Volume Type	gp3
+Size	6 GB
+Availability Zone	Same as EC2 Instance
+Attachment Target	Server 1
+
+
+
