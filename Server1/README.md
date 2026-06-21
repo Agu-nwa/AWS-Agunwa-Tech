@@ -442,4 +442,11 @@ ubuntu@ip-172-31-29-182:~$
 ```bash
 ubuntu@ip-172-31-29-182:~$ sudo nano /etc/fstab
 [paste UUID config in nano editor, save and exit]
-ubuntu@ip-172-31-29-182:~$ 
+ubuntu@ip-172-31-29-182:~$
+
+## ⚙️ Validate Configuration
+## Command
+```bash
+ubuntu@ip-172-31-29-182:~$ sudo mount -a
+mount: /etc/fstab: parse error at line 6 -- ignored
+
