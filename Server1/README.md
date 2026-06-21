@@ -525,3 +525,22 @@ Create target group.
 Result:
 
 Target Group created successfully.
+
+## 🎮 Create Application Load Balancer
+
+## Command
+Navigate to EC2 Dashboard.
+Configuration:
+
+Setting	Value
+Name	Agu-tech
+Scheme	Internet-facing
+Listener	HTTP:80
+Availability Zones	Same as EC2 Instances
+Target Group	port-target-group
+
+Result:
+
+Application Load Balancer created successfully.
+
+
