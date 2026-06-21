@@ -365,4 +365,21 @@ nvme0n1      259:0    0    8G  0 disk
 ├─nvme0n1p13 259:2    0 1023M  0 part /boot
 ├─nvme0n1p14 259:3    0    4M  0 part 
 └─nvme0n1p15 259:4    0  106M  0 part /boot/efi
-nvme1n1      259:5    0    6G  0 disk 
+nvme1n1      259:5    0    6G  0 disk
+
+
+## ⚙️ 1. Format Disk Volume
+
+### Command
+```bash
+ sudo mkfs -t ext4 /dev/nvme1n1
+mke2fs 1.47.2 (1-Jan-2025)
+Creating filesystem with 1572864 4k blocks and 393216 inodes
+Filesystem UUID: 8ef02cf5-95bc-4731-b865-6a8b0241f8fd
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200, 884736
+
+Allocating group tables: done                            
+Writing inode tables: done                            
+Creating journal (16384 blocks): done
+Writing superblocks and filesystem accounting information: done
