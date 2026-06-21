@@ -481,3 +481,19 @@ sudo mount -a
 ubuntu@ip-172-31-29-182:~$
 
 [Nothing returned, Good]
+
+## 📂 Allocate an Elastic IP Address
+
+## Command
+```bash
+From the AWS Management Console:
+
+Navigate to EC2 Dashboard.
+Select Elastic IPs.
+Click Allocate Elastic IP Address.
+Accept default settings.
+Click Allocate.
+
+Result:
+
+Elastic IP allocated to Server 1 successfully.
