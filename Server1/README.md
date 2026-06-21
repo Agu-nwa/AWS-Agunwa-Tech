@@ -555,3 +555,32 @@ Responses:
 Welcome to Agunwa Technologies - Server 1
 Welcome to Agunwa Technologies - Server 2
 Welcome to Agunwa Technologies - Server 3
+
+## Architecture Overview
+
+### Single Server Setup
+User Browser
+      │
+      ▼
+Elastic IP (Server 1)
+      │
+      ▼
+Nginx Web Server
+      │
+      ▼
+Static Website
+
+────────────────────────────────────
+
+User Browser
+      │
+      ▼
+Application Load Balancer
+      │
+      ▼
+Target Group
+      │
+ ┌────┼────┐
+ ▼    ▼    ▼
+S1   S2   S3
+
