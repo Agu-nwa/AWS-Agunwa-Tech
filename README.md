@@ -1,6 +1,7 @@
 # 💻 Agunwa Technologies - AWS DevOps Portfolio
 
 ## 👋 Overview
+
 This repository documents my hands-on AWS Cloud & DevOps engineering practice, focusing on real-world infrastructure design, deployment, and high availability systems.
 
 The goal of this project is to simulate production-level cloud architecture using AWS services such as EC2, EBS, Elastic IPs, and Load Balancers.
@@ -10,6 +11,7 @@ The goal of this project is to simulate production-level cloud architecture usin
 # 🧠 Project Challenge (Real-World Scenario)
 
 ## 🏢 Company Requirement
+
 Agunwa Technologies wants to deploy a highly available web application on AWS.
 
 You have been hired as a Cloud/DevOps Engineer to design and implement the infrastructure.
@@ -21,11 +23,13 @@ You have been hired as a Cloud/DevOps Engineer to design and implement the infra
 You are required to:
 
 ### 1. Compute Layer (EC2)
+
 - Launch **3 Ubuntu EC2 instances**
 - Install and configure **Nginx**
 - Each server must return a unique response to identify itself
 
 Example:
+
 - Server 1 → "Welcome to Agunwa Tech - Server 1"
 - Server 2 → "Welcome to Agunwa Tech - Server 2"
 - Server 3 → "Welcome to Agunwa Tech - Server 3"
@@ -33,6 +37,7 @@ Example:
 ---
 
 ### 2. Storage Layer (EBS)
+
 - Attach an additional **EBS volume**
 - Format using **ext4 filesystem**
 - Mount to a directory:
@@ -48,7 +53,8 @@ This section documents the initial setup of the project repository and Git remot
 ## 📁 1. Create Project Directory
 
 ### Command
-```bash
+
+````bash
 mkdir Agunwa-tech
 
 A new project folder named Agunwa-tech was created in the home directory
@@ -120,6 +126,7 @@ EC2 instance successfully launched and running in AWS cloud environment.
 mkdir Server1 Server2 Server3
 
 Three Folders Created Successfully
+<<<<<<< HEAD
 
 ## ⚙️ 1. Login Ubuntu
 
@@ -678,3 +685,6 @@ Responses:
 Welcome to Agunwa Technologies - Server 1
 Welcome to Agunwa Technologies - Server 2
 Welcome to Agunwa Technologies - Server 3
+=======
+````
+>>>>>>> f5e59ff (mod)
